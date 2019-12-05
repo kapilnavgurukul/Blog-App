@@ -1,0 +1,21 @@
+{
+  "name": "blog_projcet",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "4",
+    "start": "node server.js"
+  },
+  "author": "Kapil",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "knex": "^0.20.3",
+    "mysql": "^2.17.1",
+    "nodemon": "^2.0.1"
+  },
+  "devDependencies": {},
+  "description": ""
+}
