@@ -16,13 +16,9 @@ In this project I have used **MySQL**, **jsonwebtoken**, **Express**, **body-par
 ***NodeJs*** and ***NPM***
 ~~~
 $ sudo apt-get update 
-
 $ sudo apt-get install curl 
-
 $ sudo apt install build-essential apt-transport-https lsb-release ca-certificates curl 
-
 $ curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
-
 $ sudo apt install nodejs
 ~~~
 ***MYSQL***
@@ -32,6 +28,7 @@ $ sudo apt-get install mysql-server
 $ sudo mysql -u root -p
 ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'yourpassword';
 ~~~
+
 ### Package Installation
 ~~~
 $ npm install 'package_name'
